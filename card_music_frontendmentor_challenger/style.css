@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(/images/pattern-background-desktop.svg) repeat-x;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: #434343;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #bfc6d4;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 15px;
+}
+
+h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 340px;
+    align-items: center;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 6px 3px 15px #bfb9f8;
+}
+
+.card .img-card{
+    width: 100%;
+}
+
+.img-hero{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.info-descricao{
+    padding: 10px;
+    text-align: center;
+}
+
+.plano{
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f8f9fe;
+}
+
+.plano-descricao{
+    margin-left: -80px;
+}
+
+
+.preco-descricao{
+    font-size: 12px;
+}
+
+.change{
+    text-decoration: underline;
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #8d86d8;
+}
+
+.change:hover{
+    color: #706bb4;
+    transition: .3s;
+}
+
+.acao{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagamento{
+    background-color: #382ae1;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 6px 3px 15px #a8a0f5;
+}
+
+.pagamento:hover{
+    background-color: #766cf1;
+    transition: .3s;
+}
+
+.cancelar{
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #a6acbf;
+}
+
+.cancelar:hover{
+    color: #515c71;
+    transition: .3s;
+}
